@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="interface_main">
+      <div style="margin-bottom: 10px">
+        <button
+          class="btn"
+          onclick="clearData()"
+          style="background-color: antiquewhite"
+        >
+          C
+        </button>
+        <input
+          type="text"
+          class="input_data"
+          id="input_data"
+          style="
+            background-color: rgba(70, 70, 70, 0.719);
+            border-radius: 5px;
+            border: 3px solid black;
+            color: white;
+            padding: 0px 10px 0px 10px;
+            height: 46px;
+          "
+        />
+      </div>
+
+      <div
+        class="btn_interface"
+        style="font-weight: bold; font-size: 15px; color: black"
+      >
+        <div
+          class="btn_1"
+          id="btn_1"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          1
+        </div>
+        <div
+          class="btn_2"
+          id="btn_2"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          2
+        </div>
+        <div
+          class="btn_3"
+          id="btn_3"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          3
+        </div>
+        <div
+          class="btn_+"
+          id="btn_+"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: bisque;
+          "
+        >
+          +
+        </div>
+
+        <div
+          class="btn_4"
+          id="btn_4"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          4
+        </div>
+        <div
+          class="btn_5"
+          id="btn_5"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          5
+        </div>
+        <div
+          class="btn_6"
+          id="btn_6"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          6
+        </div>
+        <div
+          class="btn_-"
+          id="btn_-"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: bisque;
+          "
+        >
+          -
+        </div>
+
+        <div
+          class="btn_7"
+          id="btn_7"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          7
+        </div>
+        <div
+          class="btn_8"
+          id="btn_8"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          8
+        </div>
+        <div
+          class="btn_9"
+          id="btn_9"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          9
+        </div>
+        <div
+          class="btn_/"
+          id="btn_/"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: bisque;
+          "
+        >
+          /
+        </div>
+
+        <div
+          class="btn_0"
+          id="btn_0"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            background-color: aliceblue;
+          "
+        >
+          0
+        </div>
+        <div
+          class="btn_."
+          id="btn_."
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: aliceblue;
+          "
+        >
+          .
+        </div>
+        <div
+          class="btn_="
+          id="btn_="
+          style="background-color: aqua; color: black"
+        >
+          =
+        </div>
+        <div
+          class="btn_*"
+          id="btn_*"
+          style="
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: bisque;
+          "
+        >
+          *
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

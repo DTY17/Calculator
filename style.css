@@ -1,0 +1,57 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("/back_image.jpg");
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.interface_main {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.479);
+  opacity: 0.8;
+  padding: 30px;
+}
+.btn {
+  font-size: 12px;
+  font-weight: bold;
+  width: 96px;
+  height: 46px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border: 0px;
+}
+.input_data {
+  width: 292px;
+  height: 40px;
+}
+.btn_interface {
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.btn_interface div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
